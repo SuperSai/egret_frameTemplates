@@ -1,0 +1,52 @@
+{
+	"groups": [
+		{
+			"keys": "login_json",
+			"name": "login"
+		},
+		{
+			"keys": "balls_json,battle_json",
+			"name": "battle"
+		},
+		{
+			"keys": "hall_json",
+			"name": "hall"
+		},
+		{
+			"keys": "level_json",
+			"name": "level"
+		}
+	],
+	"resources": [
+		{
+			"url": "cn/asset/atlas/login/login.json",
+			"type": "sheet",
+			"name": "login_json",
+			"subkeys": "login_name_icon,login_saizi,login_startBtn"
+		},
+		{
+			"url": "cn/asset/atlas/battle/balls.json",
+			"type": "sheet",
+			"name": "balls_json",
+			"subkeys": "ball_0,ball_1,ball_2,ball_3,ball_4,ball_5,ball_6"
+		},
+		{
+			"url": "cn/asset/atlas/battle/battle.json",
+			"type": "sheet",
+			"name": "battle_json",
+			"subkeys": "device"
+		},
+		{
+			"url": "cn/asset/atlas/hall/hall.json",
+			"type": "sheet",
+			"name": "hall_json",
+			"subkeys": "hall_bg,hall_bg_down,hall_icon"
+		},
+		{
+			"url": "cn/asset/atlas/level/level.json",
+			"type": "sheet",
+			"name": "level_json",
+			"subkeys": "level_btn_lock,level_btn_past,level_btn_self,level_chapter_icon,level_king_star,level_lock,level_star_0,level_star_1"
+		}
+	]
+}

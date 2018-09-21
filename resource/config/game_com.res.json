@@ -1,0 +1,46 @@
+{
+	"groups": [
+		{
+			"keys": "frame_json,button_json,icon_json",
+			"name": "common"
+		},
+		{
+			"keys": "global",
+			"name": "global"
+		},
+		{
+			"keys": "loadingBg",
+			"name": "loading"
+		}
+	],
+	"resources": [
+		{
+			"url": "common/atlas/frame/frame.json",
+			"type": "sheet",
+			"name": "frame_json",
+			"subkeys": "frame_color_bg,frame_icon_bg_01,frame_icon_bg_02,frame_top_bg,new_frame_titile"
+		},
+		{
+			"url": "common/atlas/button/button.json",
+			"type": "sheet",
+			"name": "button_json",
+			"subkeys": "btn_back,btn_beige,btn_blue,btn_red"
+		},
+		{
+			"url": "config/global.json",
+			"type": "json",
+			"name": "global"
+		},
+		{
+			"url": "common/atlas/loadingBg.jpg",
+			"type": "image",
+			"name": "loadingBg"
+		},
+		{
+			"url": "common/atlas/icon/icon.json",
+			"type": "sheet",
+			"name": "icon_json",
+			"subkeys": "icon_gold,icon_heart"
+		}
+	]
+}
