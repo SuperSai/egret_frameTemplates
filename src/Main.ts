@@ -53,6 +53,7 @@ class Main extends eui.UILayer {
         egret.ImageLoader.crossOrigin = "anonymous";
         //适配方式(全屏适配)
         App.StageUtils.startFullscreenAdaptation(720, 1280, null);
+        App.StageUtils.setFrameRate(60);
         App.LayerManager.setup(App.StageUtils.getStage());
     }
     /** 初始化平台 */
@@ -75,7 +76,8 @@ class Main extends eui.UILayer {
         }
     }
     /** 开始运行游戏 */
-    private async runGame() {
+    private async runGame($root: string = "resource/") {
+        PathConfig.Root = $root;
         await this.loadResource();
         this.createGameScene();
     }
@@ -131,7 +133,7 @@ class Main extends eui.UILayer {
             //加载皮肤主题配置文件,可以手动修改这个文件。替换默认皮肤。
             let theme = new eui.Theme(PathConfig.ThemePath, this.stage);
             theme.addEventListener(eui.UIEvent.COMPLETE, () => {
-                GlobleData.getInstance.setup();
+                GlobleVOData.getInstance.setup();
                 RES.getResByUrl(PathConfig.Language, (data: string, url: string) => {
                     App.LanguageManager.setup(data);
                     resolve();

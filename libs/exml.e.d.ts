@@ -1,6 +1,10 @@
-declare class BattleUIViewSkin extends eui.Skin{
+declare class BattleMapSkin extends eui.Skin{
 }
-declare class CurrencyComponentSkin extends eui.Skin{
+declare class BattleViewSkin extends eui.Skin{
+}
+declare class ButtonComSkin extends eui.Skin{
+}
+declare class CurrencyComSkin extends eui.Skin{
 }
 declare module skins{
 	class ButtonSkin extends eui.Skin{
@@ -58,5 +62,5 @@ declare class HallViewSkin extends eui.Skin{
 }
 declare class LoadingUISkin extends eui.Skin{
 }
-declare class LoginSkin extends eui.Skin{
+declare class LoginViewSkin extends eui.Skin{
 }

@@ -16,8 +16,10 @@
 	},
 	"autoGenerateExmlsList": true,
 	"exmls": [
-		"resource/skins/battle/BattleUIViewSkin.exml",
-		"resource/skins/common/component/CurrencyComponentSkin.exml",
+		"resource/skins/battle/BattleMapSkin.exml",
+		"resource/skins/common/component/CurrencyComSkin.exml",
+		"resource/skins/battle/BattleViewSkin.exml",
+		"resource/skins/common/component/ButtonComSkin.exml",
 		"resource/skins/eui_skins/ButtonSkin.exml",
 		"resource/skins/eui_skins/CheckBoxSkin.exml",
 		"resource/skins/eui_skins/HScrollBarSkin.exml",
@@ -33,7 +35,7 @@
 		"resource/skins/eui_skins/VSliderSkin.exml",
 		"resource/skins/hall/HallViewSkin.exml",
 		"resource/skins/loading/LoadingUISkin.exml",
-		"resource/skins/login/LoginSkin.exml"
+		"resource/skins/login/LoginViewSkin.exml"
 	],
 	"path": "resource/config/default.thm.json"
 }
